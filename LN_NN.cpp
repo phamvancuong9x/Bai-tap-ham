@@ -1,7 +1,7 @@
 //Viet chuong trinh nhap vao n so nguyen , Tim so lon nhat nho nhat<khong su dung mang>
 #include<iostream>
 using namespace std;
-auto LN_NN(int n) {
+int LN_NN(int n) {
 	int LN;
 	int NN;
 	int a;
