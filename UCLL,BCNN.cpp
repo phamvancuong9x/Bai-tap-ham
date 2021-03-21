@@ -1,7 +1,7 @@
 //Tinh UCLL BCNN 2 so nguyen a,b
 #include<iostream>
 using namespace std;
-int UCLL(int a, int b)
+int ucln(int a, int b)
 {
 	int UCLN=0;
 	for (int i = a; i >= 1; i--) {
@@ -19,7 +19,7 @@ int UCLL(int a, int b)
 		
 	}return UCLN;
 }
-int BCNN(int a, int b)
+int bcnn(int a, int b)
 {
 	int BCNN;
 	for (int i = 1; i <= a; i++)
@@ -42,8 +42,8 @@ int main()
 {
 	int a, b;
 	cin >> a >> b;
-	cout << "UCLN la : " << UCLL(a, b) << endl;;
-	cout << "BCNN la :"<<BCNN(a, b)<<endl;
+	cout << "UCLN la : " << ucln(a, b) << endl;;
+	cout << "BCNN la :"<<bcnn(a, b)<<endl;
 	system("pause");
 	return 0;
 }
