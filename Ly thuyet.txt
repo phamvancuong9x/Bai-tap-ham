@@ -1,0 +1,24 @@
+BT lý thuyết : 
+
+1. Ưu điểm của lập trình thủ tục hàm so với lập trình tuyến tính là
+Thực hiện một chức năng nào đó có thể sử dụng nhiều lần.rút gọn chương trình.
+
+2.
+ Có 2 loại hàm : 
++ Hàm có giá trị trả về : sử dụng khi giá trị của hàm được tái sử dụng ;
+<kieu du lieu của ham> < kdl gia tri trả về>
++ Hàm không có giá trị trả về : sử dụng khi giá trị của hàm không được tái sử dụng;
+  void
+3. Chức năng và nguyên lý hoạt động của return trong hàm có kdl trả về là :
+thoát khỏi hàm và thực hiện trả về 1 giá trị của hàm
+
+4. Cách dùng lời gọi hàm của hàm có giá trị trả về là :
+Lời gọi hàm<giá trị trả về của hàm>
+
+4. tham số hình thức là là tham số được sử dụng trong định nghĩa hàm ;
+
+tham số thực là tham số được truyền vào lời gọi hàm;
+
+5. Tham trị là  tham số không có & ở phía trước và là bản sao được tạo ra từ tham số thực,mọi thay đổi không ảnh hưởng đến tham số thực;
+  tham chiếu là tham số có & ở phía trước ,đi đến tham số thực để tương tác,mọi thay đổi ảnh hưởng đến tham số thực; 
+6. Hàm trong chương trình được thực thi khi lời gọi hàm được sử dụng và có tham số thực được truyền vào;
